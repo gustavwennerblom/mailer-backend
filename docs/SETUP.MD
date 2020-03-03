@@ -11,7 +11,7 @@ This documents the basic setup of this project, which can be helpful when settin
   - `./node_modules/.bin/tsc --init`
   - `yarn add -D @types/node`
   - Edit the `tsconfig.json` to enable sourcemaps and set the `outDir` to something that makes sense (here, we're following the CRA convention and calling it `./build`)
-  
+
 - Install nodemon, wire it up, and add a build task
   - `yarn add -D nodemon`
   - Add to the `script` section in package.json the lines
@@ -41,3 +41,4 @@ The following web resources served as guides:
 
 - [Setting up a new Typescript project](https://alligator.io/typescript/new-project/)
 - [Using ESLint and Prettier in a Typescript project](https://alligator.io/typescript/new-project/)
+- [Adding nodemon and debug support](https://medium.com/aherforth/how-to-get-auto-restart-and-breakpoint-support-with-typescript-and-node-5af589dd8687)
